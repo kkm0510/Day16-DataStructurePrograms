@@ -1,6 +1,7 @@
 package unorderedlist;
 
 public class Main {
+
     public static void main(String[] args) {
         String sentence="hello hey world this is kartikeya maan";
         String[] words=sentence.split(" ");
@@ -14,4 +15,5 @@ public class Main {
         else list.remove(word);
         System.out.println(list);
     }
+
 }
