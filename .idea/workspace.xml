@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : initial commit">
-      <change afterPath="$PROJECT_DIR$/src/orderedlist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/orderedlist/OrderedList.java" afterDir="false" />
+    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for ordered list">
+      <change afterPath="$PROJECT_DIR$/src/BalancedParantheses/BalancedParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BalancedParantheses/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unorderedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unorderedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unorderedlist/UnorderedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unorderedlist/UnorderedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/Day16-DataStructurePrograms"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,11 +70,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678631725904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADDED : code for ordered list">
+      <created>1678638410703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678638410703</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : initial commit" />
+    <MESSAGE value="ADDED : code for ordered list" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for ordered list" />
   </component>
 </project>
