@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for ordered list">
-      <change afterPath="$PROJECT_DIR$/src/palindromechecker/Dequeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/palindromechecker/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchnumberinslot/ChainOfSlots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searchnumberinslot/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
