@@ -1,4 +1,4 @@
-package BalancedParantheses;
+package balancedparantheses;
 
 public class BalancedParentheses {
 

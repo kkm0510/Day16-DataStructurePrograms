@@ -1,21 +1,21 @@
-package BalancedParantheses;
+package cashcounter;
 
 import unorderedlist.UnorderedList;
 
-public class MyStack<T extends Comparable<T>> {
+public class MyQueue <T extends Comparable<T>> {
 
     private final UnorderedList<T> list;
 
-    public MyStack(){
+    public MyQueue(){
         list=new UnorderedList<>();
     }
 
-    public void push(T data){
-        list.push(data);
+    public void enqueue(T data){
+        list.add(data);
     }
 
-    public void pop(){
-        list.pop();
+    public void dequeue(){
+        list.removeFromHead();
     }
 
     public boolean isEmpty(){

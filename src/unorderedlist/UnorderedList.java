@@ -25,7 +25,7 @@ public class UnorderedList<T extends Comparable<T>> {
         tail = node;
     }
 
-    public void push(T data){
+    public void addAtHead(T data){
         size++;
         Node<T> node = new Node<>(data);
         if (head == null) {
@@ -37,7 +37,7 @@ public class UnorderedList<T extends Comparable<T>> {
         head=node;
     }
 
-    public void pop(){
+    public void removeFromHead(){
         if (head == null) return;
         head=head.next;
         size--;
