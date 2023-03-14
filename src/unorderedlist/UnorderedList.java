@@ -37,10 +37,12 @@ public class UnorderedList<T extends Comparable<T>> {
         head=node;
     }
 
-    public void removeFromHead(){
-        if (head == null) return;
+    public T removeFromHead(){
+        if (head == null) return null;
+        T ele=head.data;
         head=head.next;
         size--;
+        return ele;
     }
 
     public boolean search(T data) {
