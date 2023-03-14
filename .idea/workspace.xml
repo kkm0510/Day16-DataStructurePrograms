@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for ordered list">
-      <change afterPath="$PROJECT_DIR$/src/searchnumberinslot/ChainOfSlots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchnumberinslot/Main.java" afterDir="false" />
+    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for search in slots">
+      <change afterPath="$PROJECT_DIR$/src/primenumbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primenumbers/PrimeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primenumbers/PrimeList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,40 @@
       <recent name="unorderedlist.test" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primenumbers.Main" />
+      <module name="Day16-DataStructurePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primenumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primenumbers.PrimeList" />
+      <module name="Day16-DataStructurePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primenumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PrimeList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,13 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678774164733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ADDED : code for search in slots">
+      <created>1678779563906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678779563906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : initial commit" />
     <MESSAGE value="ADDED : code for ordered list" />
     <MESSAGE value="ADDED : code for cash counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for cash counter" />
+    <MESSAGE value="ADDED : code for search in slots" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code for search in slots" />
   </component>
 </project>
