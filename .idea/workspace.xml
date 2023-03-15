@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code anagram prime numbers">
-      <change afterPath="$PROJECT_DIR$/src/anagramsinstack/StackOfAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/balancedparantheses/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balancedparantheses/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/primeanagrams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primeanagrams/AnagramArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/anagramsinqueue/AnagramsInQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cashcounter/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cashcounter/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC9-PRIME_ANAGRAMS" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -54,7 +52,7 @@
       <recent name="unorderedlist.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackOfAnagrams">
+  <component name="RunManager" selected="Application.AnagramsInQueue">
     <configuration name="AnagramArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primeanagrams.AnagramArray" />
       <module name="Day16-DataStructurePrograms" />
@@ -81,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primenumbers.Main" />
+    <configuration name="AnagramsInQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="anagramsinqueue.AnagramsInQueue" />
       <module name="Day16-DataStructurePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="primenumbers.*" />
+          <option name="PATTERN" value="anagramsinqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primenumbers.PrimeList" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primenumbers.Main" />
       <module name="Day16-DataStructurePrograms" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnagramsInQueue" />
         <item itemvalue="Application.StackOfAnagrams" />
         <item itemvalue="Application.AnagramArray" />
         <item itemvalue="Application.AnagramMap" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PrimeList" />
       </list>
     </recent_temporary>
   </component>

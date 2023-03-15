@@ -14,8 +14,9 @@ public class MyQueue <T extends Comparable<T>> {
         list.add(data);
     }
 
-    public void dequeue(){
-        list.removeFromHead();
+    public T dequeue(){
+        T ele=list.removeFromHead();
+        return ele;
     }
 
     public boolean isEmpty(){
