@@ -14,8 +14,9 @@ public class MyStack<T extends Comparable<T>> {
         list.addAtHead(data);
     }
 
-    public void pop(){
-        list.removeFromHead();
+    public T pop(){
+        T ele=list.removeFromHead();
+        return ele;
     }
 
     public boolean isEmpty(){

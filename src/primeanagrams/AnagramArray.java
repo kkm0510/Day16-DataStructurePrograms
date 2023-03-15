@@ -1,8 +1,14 @@
 package primeanagrams;
 
-public class Main {
+public class AnagramArray {
 
-    public static void printArray(int[][] arr) {
+    public int[][] arr;
+
+    public AnagramArray(){
+        fillArray();
+    }
+
+    public  void printArray() {
         for (int[] a : arr) {
             for (int i : a) {
                 System.out.print(i + " ");
@@ -11,11 +17,9 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+    public void fillArray(){
         AnagramList al = new AnagramList();
-//        System.out.println(al.listBelowHundred);
-//        System.out.println(al.listAboveHundred);
-        int[][] arr = new int[al.listAboveHundred.size() + al.listBelowHundred.size()][];
+        arr = new int[al.listAboveHundred.size() + al.listBelowHundred.size()][];
         int i = 0;
         for (int j = 0; j < al.listBelowHundred.size(); j++) {
             arr[i] = new int[al.listBelowHundred.get(j).getValue().size()];
@@ -31,6 +35,10 @@ public class Main {
             }
             i++;
         }
-        printArray(arr);
+    }
+
+    public static void main(String[] args) {
+        AnagramArray aa=new AnagramArray();
+        aa.printArray();
     }
 }
