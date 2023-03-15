@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PrimeList {
 
-    ArrayList<ArrayList<Integer>> listsOfPrimes;
+    public ArrayList<ArrayList<Integer>> listsOfPrimes;
     int k;
 
     public PrimeList(){

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for search in slots">
-      <change afterPath="$PROJECT_DIR$/src/primenumbers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primenumbers/PrimeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primenumbers/PrimeList.java" afterDir="false" />
+    <list default="true" id="131752ff-6242-4f99-ae11-8e0183dbd6c4" name="Changes" comment="ADDED : code for storing prime number in 2D array">
+      <change afterPath="$PROJECT_DIR$/src/primeanagrams/AnagramList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeanagrams/AnagramMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeanagrams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primenumbers/PrimeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primenumbers/PrimeList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/Day16-DataStructurePrograms&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/AddressBookSystem&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -54,7 +55,20 @@
       <recent name="unorderedlist.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.primeanagrams.Main">
+    <configuration name="AnagramMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeanagrams.AnagramMap" />
+      <module name="Day16-DataStructurePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primenumbers.Main" />
       <module name="Day16-DataStructurePrograms" />
@@ -81,8 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="primeanagrams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeanagrams.Main" />
+      <module name="Day16-DataStructurePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeanagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.primeanagrams.Main" />
+        <item itemvalue="Application.AnagramMap" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrimeList" />
       </list>
