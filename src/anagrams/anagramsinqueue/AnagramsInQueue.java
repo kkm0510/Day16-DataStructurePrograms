@@ -1,7 +1,7 @@
-package anagramsinqueue;
+package anagrams.anagramsinqueue;
 
 import cashcounter.MyQueue;
-import primeanagrams.AnagramArray;
+import anagrams.primeanagrams.AnagramArray;
 
 public class AnagramsInQueue {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package anagramsinstack;
+package anagrams.anagramsinstack;
 
 import balancedparantheses.MyStack;
-import primeanagrams.AnagramArray;
+import anagrams.primeanagrams.AnagramArray;
 
 public class StackOfAnagrams {
     public static void main(String[] args) {

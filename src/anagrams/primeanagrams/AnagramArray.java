@@ -1,4 +1,4 @@
-package primeanagrams;
+package anagrams.primeanagrams;
 
 public class AnagramArray {
 
