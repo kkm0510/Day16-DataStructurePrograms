@@ -10,6 +10,10 @@ public class WeekDay implements Comparable<WeekDay> {
         this.day=day;
     }
 
+    public String toString(){
+        return "Date: "+date+"  "+day;
+    }
+
     @Override
     public int compareTo(WeekDay o) {
         return this.date-o.date;

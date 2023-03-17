@@ -11,7 +11,6 @@ public class Week {
     }
 
     public void storeWeekDaysInList(){
-        Week week=new Week();
         for(int i=1; i<=30; i++){
             String day="";
             int d=i%7;
@@ -24,8 +23,7 @@ public class Week {
                 case 5 -> day="Friday";
                 case 6 -> day="Saturday";
             }
-            WeekDay weekDay=new WeekDay(day, i);
-            week.weekDaysList.add(weekDay);
+            weekDaysList.add(new WeekDay(day, i));
         }
     }
 }
